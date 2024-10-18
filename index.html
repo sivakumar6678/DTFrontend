@@ -23,17 +23,24 @@
       </nav>
   </header>
 
-  <main>
-    <!-- <section id="journey-board">
-      <h2>Explore the World of Management</h2>
-      <ul>
-        <li>Technical Project Management</li>
-        <li>Threadbuild</li>
-        <li>4SA Method</li>
-      </ul>
-      <div class="topic-details">
-        </div>
-      </section> -->
+  <main class="mainpage">
+    <section id="journey-board">
+      <div class="journ-head">
+        <h2 id="journey-head">Journey Board</h2>
+        <button id="toggle-button"><i id="togglebtnside" class="fa fa-arrow-circle-left"></i></button>
+      </div>
+      <div class="jouney-body" id="journey-content">
+        <ul>
+          <li>
+            <b>Explore the World of Management</b>
+          </li>
+          <li>Technical Project Management</li>
+          <li>Threadbuild</li>
+          <li>Structure your pointers</li>
+          <li>4SA Method</li>
+        </ul>
+      </div>
+    </section>
       
       <section class="main">
         <div class="heading">
@@ -61,7 +68,7 @@
           <div class="card-body">
             <p><b>Description:</b>  Watch the video and threadbuild, and jot out key threads while watching the video</p>
             <div class="card-header">
-              <h3>Thread A</h3>
+              <h3><i style="float:left;" class="fas fa-chevron-up"></i> Thread A</h3>
           </div>
           <div class="card-body-card2">
               <div class="input-section">
@@ -81,11 +88,9 @@
                   <button class="icon-button">⬇️</button>
                   <select class="dropdown">
                       <option class="opiton">Select Categ</option>
-                      <!-- Add more options here -->
                   </select>
                   <select class="dropdown">
                       <option class="opiton">Select Process</option>
-                      <!-- Add more options here -->
                   </select>
               </div>
               <button class="add-sub-thread">+ Sub-thread</button>
@@ -101,6 +106,33 @@
           <div class="card-heading"><h4>Structure your Pointers  <i class="fas fa-info-circle"></i></h4></div>
           <div class="card-body">
             <p><b>Description :</b>  Write a 300 - 400 word article from your thread . Publish your understanding and showcase your understanding to the entire world </p>
+            <div class="card-body-content">
+              <h2>Title</h2>
+              <input type="text">
+              <h2>Content</h2>
+              <div class="notepad">
+                <div class="firstrow">
+                  <li>File</li>
+                  <li>Edit</li>
+                  <li>View</li>
+                  <li>Insert</li>
+                  <li>Format</li>
+                  <li>Tools</li>
+                  <li>Table</li>
+                  <li>Help</li>
+                </div>
+                <div class="secondrow">
+                  <li><img src="images/curved-arrow.png" alt=""></li>
+                  <li><img src="images/curved-arrow.png" id="icon-right" alt=""></li>
+                  <li><i class="fas fa-expand-arrows-alt"></i></li>
+                  <li><input type="text" placeholder="Paragraph"></li>
+                  <li><i class="fas fa-ellipsis-h"></i></li>
+                </div>
+              </div>
+              <div>
+                <textarea id="afterseconsrow"></textarea>
+              </div>
+            </div>
 
           </div>
         </div>
@@ -108,15 +140,44 @@
           <div class="card-heading"><h4>4SA Method  <i class="fas fa-info-circle"></i></h4></div>
           <div class="card-body">
             <p><b>Description :</b>  To Explore more read more </p>
+            <div class="card-body-last">
+              <div>
+                <h3 class="mainh3"><i style="float:left; margin-right:15px;" class="fas fa-chevron-up"></i> Introduction </h3>
+                <p>The 4SA Method , How to bring a idea into progress ?</p>
+                <span class="seemore">See More</span>
+              </div>
+              <div>
+                <h3><i style="float:left; margin-right:15px;" class="fas fa-chevron-up"></i> Thread A</h3>
+                <p>How are you going to develop your stratergy ? Which method are you going to use to develop a stratergy ? What if the project is lengthy?</p>
+                <span class="seemore">See More</span>
+              </div>
+              <div class="lastexample">
+                <h3>Example 1</h3>
+                <p>You have a concept , How will you put into progress?</p>
+              </div>
+
+            </div>
 
           </div>
         </div>
       </section>
+      <section class="rightpage">
+        <div class="rightbar">
+          <span>
+            <h3><i class="fas fa-times" style="font-size: 32px; padding-top:10px;"></i> Notice Board</h3>
+          </span>
+        </div>
+
+
+        <ul>
+          <li><i class="fas fa-info-circle"></i></li>
+          <li><i class="fas fa-users"></i></li>
+          <li><i class="fas fa-calendar-alt"></i></li>
+        </ul>
+      </section>
       
     </main>
 
-    <footer>
-    </footer>
     
   <script src="script.js"></script>
 </body>
