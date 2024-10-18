@@ -15,7 +15,6 @@ document.getElementById('toggle-button').addEventListener('click', function() {
     }
   });
 
-  // Initially hide the button if no content
   window.addEventListener('load', function() {
     var content = document.getElementById('journey-content');
     var button = document.getElementById('toggle-button');
